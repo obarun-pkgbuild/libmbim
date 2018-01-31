@@ -3,7 +3,7 @@
 # 						Maintainer: Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
 
 pkgname=libmbim
-pkgver=1.14.2
+pkgver=1.16.0
 pkgrel=2
 pkgdesc="MBIM modem protocol helper library"
 arch=(x86_64)
@@ -11,7 +11,7 @@ url="https://www.freedesktop.org/wiki/Software/libmbim/"
 license=(GPL2)
 depends=('glib2' 'bash' 'libgudev')
 makedepends=('gtk-doc' 'python' 'git' 'help2man')
-_commit=6398b0d10e27b51ff05fda33dd4b9ddd5bf64bae # tags/1.14.2
+_commit=16e15d49297f72397f6b691cf7a9ccf47bdae844 # tags/1.16.0
 source=("git+https://anongit.freedesktop.org/git/libmbim/libmbim#commit=$_commit")
 sha256sums=('SKIP')
 validpgpkeys=('6DD4217456569BA711566AC7F06E8FDE7B45DAAC') # Eric Vidal
